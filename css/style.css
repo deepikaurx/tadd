@@ -1,0 +1,99 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+#deepi {
+    opacity:0.5;
+}
+
+
+#container {
+
+position: relative;
+top: 200px;
+height: 700px;
+
+}
+
+
+
+#box {
+
+position: relative;
+top: 200px;
+float:left;
+padding-left: 400px;
+
+
+}
+
+
+#goals {
+    position: relative;
+    top: 270px;
+    float: right;
+    padding-right: 400px;
+   
+
+}
+
+
+h1 {
+
+	color: #A9A9A9;
+}
+
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+table, td, th {
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+}
+
+th {
+    text-align: left;
+}
