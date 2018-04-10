@@ -17,6 +17,10 @@ position: relative;
 top: 200px;
 
 
+
+height: 700px;
+
+
 }
 
 
@@ -91,11 +95,16 @@ table, td, th {
 
 table {
     border-collapse: collapse;
+
     width: 50%;
+
+    width: 30%;
+
 }
 
 th {
     text-align: left;
+
 }
 
 
@@ -112,5 +121,5 @@ right: 300px;
 footer {
 }
 
-
+}
 
