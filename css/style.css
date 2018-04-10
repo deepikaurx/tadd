@@ -1,24 +1,18 @@
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 
 
-#deepi {
-    opacity:0.5;
-}
 
 
 #container {
 
 position: relative;
 top: 200px;
-
-
-
-height: 700px;
+height: 1200px;
 
 
 }
@@ -30,7 +24,7 @@ height: 700px;
 position: relative;
 top: 200px;
 float:left;
-padding-left: 400px;
+padding-left: 500px;
 
 
 }
@@ -40,7 +34,7 @@ padding-left: 400px;
     position: relative;
     top: 270px;
     float: right;
-    padding-right: 400px;
+    padding-right: 500px;
    
 
 }
@@ -87,24 +81,28 @@ h1 {
 
 
 
-
-
-table, td, th {
-    border: 1px solid white;
-}
-
 table {
-    border-collapse: collapse;
-
-    width: 50%;
-
-    width: 30%;
-
+    width:50%;
+    position: relative;
+    top: 50px;
 }
-
-th {
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
     text-align: left;
-
+}
+table#tb tr:nth-child(even) {
+    background-color: #eee;
+}
+table#tb tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#tb th {
+    background-color: black;
+    color: white;
 }
 
 
@@ -112,14 +110,28 @@ th {
 
 
 #code {
-position: relative;
-top: 500px;
-right: 300px;
+position: absolute;
+bottom: 0px;
+width: 100%;
+padding-left: 200px;
+margin-top: 50px;
 
 }
 
 footer {
+    position: relative;
+    top: 200px;
+    background-color: #000;
+    padding: 50px;
+}
+
+
+
+
+h6 {
+    color: #fff;
 }
 
 }
+
 
